@@ -1,0 +1,52 @@
+.scroll-wrapper ::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: #fff3;
+  border-radius: 1ex;
+}
+
+.scroll-wrapper ::-webkit-scrollbar-thumb {
+  background: #fff3;
+  border-radius: 1ex;
+}
+
+.scroll-wrapper ::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+.scroll-wrapper {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.scroll-progress {
+  position: absolute;
+  top: -65px;
+  left: -15px;
+  transform: rotate(-90deg);
+  width: 80px;
+  height: 80px;
+}
+
+.scroll-progress .bg {
+  stroke: transparent;
+}
+
+.scroll-progress circle {
+  stroke-dashoffset: 0;
+  stroke-width: 10%;
+  fill: none;
+}
+
+.scroll-progress .indicator {
+  stroke: #ff0088;
+}
+
+.scroll-list {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: scroll;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
