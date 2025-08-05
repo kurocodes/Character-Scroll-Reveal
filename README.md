@@ -13,6 +13,3 @@ A parallax scroll component where each scroll reveals a new anime character — 
 - Scroll reveals a character with image, name and description
 - Scroll animations feel natural and smooth
 - Responsive to all screen sizes
-
- ## 🎬 Preview
- 
